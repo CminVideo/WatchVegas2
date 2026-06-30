@@ -1,0 +1,79 @@
+
+
+## Version 2.4.5 - Change Log
+
+Added System Load Monitor panel with colour warnings
+Added Adaptive CPU Temperature Warning based on rolling baseline
+Added Adaptive GPU Usage Warning using dynamic baseline measurement
+Enhanced Advanced Form with plugin watch list editable features:
+Added loaded modules list with live filtering/search
+Enabled click add from loaded modules to watch list
+Improved Test Button functionality to trigger screenshot, 
+refresh modules and log system status and 
+loading with robust radio button handling
+
+
+## Version 2.4.1 - Change Log
+
+Added system load monitor (Beta)
+Fixed bug in form load
+Changed Conflict Filter button indicator 
+Added Open Screenshot Folder
+
+## Version 2.4.0 - Change Log
+
+Implemented Vegas Crash Detection Framework
+Added real-time Vegas Responsiveness Monitoring
+Added Automatic Crash Snapshot Capture
+Implemented Silent Screenshot Capture Buffer System
+Added Pre-Crash Screenshot Preservation
+Added Automatic Screenshot Saving on Vegas Process Termination
+Added Crash Evidence Collection System
+Added Last Loaded Module Tracking
+Added Full Module Load History Recording
+Enhanced Plugin/DLL Monitoring and Analysis
+Improved Background Monitoring Stability
+Improved Crash Investigation and Diagnostics
+Optimized Screenshot Capture Reliability
+Refined Logging and Event Tracking
+Various Stability Improvements and Bug Fixes
+
+## Version 2.3.3 - Change Log
+
+Major Disk Logging Cleanup
+Added Heartbeat Logging
+Updated Log Formatting and Visual Layout
+Added DLL/Module Search Function
+Fixed Multiple Stability Issues
+Improved UI Scaling and Button Sizing
+Enhanced Error Capture and Reporting
+
+## Version 2.2.1 - Change Log
+
+Implemented Thermal Alert System (Visual Red Alerts)
+Activated Background Interference Monitor
+Added CPU Temperature Threshold Monitoring
+Added GPU Temperature Threshold Monitoring
+Added Recursive Process Traversal Analysis
+Fixed Multi-Resolution Scaling Issues
+Corrected Disk Activity Reporting Bugs
+Improved Screenshot Folder Purge Logic
+
+## Version 1.2.1 - Change Log
+
+Optimized Chart Auto-Scaling
+Fixed Graph Clipping Issues
+Standardized Bold Chart Headings
+General UI Cleanup
+Code Refactoring for Improved Stability
+
+## Version 1.2.0 - Change Log
+
+Implemented Auto-Screenshot Feature
+Added Synchronized Timestamping for Alerts and Images
+Integrated LibreHardwareMonitor
+Added GPU and VRAM Real-Time Monitoring
+Added Log File Saving and Clearing
+Added Always-On-Top Functionality
+Added Manual Screenshot Trigger
+General Stability Improvements and UI Polish

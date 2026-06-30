@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <title>WatchVegas2 Help Guide</title>
+
+    <style>
+
+        body {
+
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+            margin: 20px;
+
+            line-height: 1.6;
+
+            color: #222;
+
+            background-color: #f9f9f9;
+
+        }
+
+        h1, h2, h3 {
+
+            color: #003366;
+
+            font-weight: bold;
+
+        }
+
+        h1 {
+
+            font-size: 2em;
+
+            margin-bottom: 0.2em;
+
+        }
+
+        h2 {
+
+            font-size: 1.5em;
+
+            margin-top: 1.2em;
+
+            margin-bottom: 0.3em;
+
+            border-bottom: 2px solid #0055a5;
+
+            padding-bottom: 4px;
+
+        }
+
+        p {
+
+            margin: 0.5em 0;
+
+        }
+
+        ul {
+
+            list-style-type: disc;
+
+            margin-left: 2em;
+
+        }
+
+        strong {
+
+            color: #990000;
+
+        }
+
+        .example {
+
+            background-color: #eef6fb;
+
+            border-left: 4px solid #007acc;
+
+            padding: 10px;
+
+            margin: 1em 0;
+
+            font-family: Consolas, monospace;
+
+        }
+
+        a {
+
+            color: #0066cc;
+
+            text-decoration: none;
+
+        }
+
+        a:hover {
+
+            text-decoration: underline;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>WatchVegas2 Help Guide</h1>
+
+ 
+
+    <h2>Introduction</h2>
+
+    <p>WatchVegas2 is a powerful monitoring tool designed to help you oversee your system’s hardware performance and Vegas Pro plugins. It provides real-time graphs, alerts, and detailed logs to ensure your system runs smoothly.</p>
+
+ 
+
+    <h2>Features Overview</h2>
+
+    <ul>
+
+        <li><strong>Hardware Monitoring:</strong> Tracks CPU, GPU, VRAM, RAM, Disk usage, and CPU temperature with graphical charts.</li>
+
+        <li><strong>Vegas Pro Module Scanning:</strong> Monitors loaded plugins and system modules within Vegas Pro.</li>
+
+        <li><strong>Watched Plugins:</strong> Notifies you when specific plugins you care about are loaded.</li>
+
+        <li><strong>Interference Application Monitoring:</strong> Detects potentially conflicting background applications.</li>
+
+        <li><strong>Logging and Reporting:</strong> Saves detailed logs and crash snapshots for troubleshooting.</li>
+
+        <li><strong>Automatic and Manual Screenshots:</strong> Capture screenshots on alerts or manually for documentation.</li>
+
+    </ul>
+
+ 
+
+    <h2>Watched Plugins Explained</h2>
+
+    <p>The Watched Plugins feature lets you specify plugin names or keywords that are important to monitor. When a plugin matching one of these keywords is detected, WatchVegas2:</p>
+
+    <ul>
+
+        <li>Logs a special <strong>[WATCHED]</strong> message in the application log and saves it to the disk log.</li>
+
+        <li>Optionally triggers a screenshot capture to document the state of your system.</li>
+
+    </ul>
+
+    <p><strong>Example:</strong></p>
+
+    <div class="example">
+
+        [2024-06-09 14:25:30] [WATCHED]: BorisFXPlugin.dll (matched 'Boris')
+
+    </div>
+
+    <p>This helps you keep track of critical or suspicious plugins easily.</p>
+
+ 
+
+    <h2>How to Use Watched Plugins</h2>
+
+    <ul>
+
+        <li>Open the settings window.</li>
+
+        <li>Add or remove plugin keywords in the Watched Plugins list.</li>
+
+        <li>Enable logging and/or screenshot triggers for watched plugins.</li>
+
+        <li>Save the settings to apply changes.</li>
+
+    </ul>
+
+ 
+
+    <h2>Interference Application Monitoring</h2>
+
+    <p>WatchVegas2 also monitors for known background applications that might interfere with Vegas Pro, like Discord, OBS, and Steam. If detected, it alerts you with warnings in the log.</p>
+
+ 
+
+    <h2>Summary Report</h2>
+
+    <p>The <strong>Summary Report</strong> feature provides a quick snapshot of your system and Vegas Pro status at any moment. Accessible from the <em>Tools &gt; Summary Report</em> menu, it displays key information such as:</p>
+
+    <ul>
+
+        <li><strong>System Load Level:</strong> Current overall system load with color indication.</li>
+
+        <li><strong>CPU, GPU, VRAM, and Disk Usage:</strong> The latest usage percentages of your hardware.</li>
+
+        <li><strong>CPU Temperature:</strong> Current CPU temperature, including adaptive baseline if used.</li>
+
+        <li><strong>Loaded Modules:</strong> Number of modules currently loaded into Vegas Pro and the most recently loaded module.</li>
+
+        <li><strong>Watched Plugins:</strong> Lists plugin modules you have specified to watch that are currently active.</li>
+
+        <li><strong>Conflict Monitor Status:</strong> Indicates whether interference monitoring is enabled, and lists any currently detected conflicting applications.</li>
+
+        <li><strong>Heartbeat Logging:</strong> Shows if heartbeat monitoring is active to track ongoing system status.</li>
+
+    </ul>
+
+    <p>This report is displayed directly within the main log window for convenient access and real-time review, without needing to open separate forms or windows. It is designed to help you quickly assess system health, plugin states, and potential conflicts.</p>
+
+ 
+
+    <h2>Getting Started</h2>
+
+    <ol>
+
+        <li>Launch WatchVegas2. Ensure only one instance is running.</li>
+
+        <li>Configure your settings including watched plugins, alert thresholds, and interference monitoring.</li>
+
+        <li>Start Vegas Pro and monitor the logs and hardware stats live.</li>
+
+        <li>Use the Refresh and Filter options to control module scanning and log viewing.</li>
+
+    </ol>
+
+ 
+
+    <h2>Additional Help</h2>
+
+    <p>You can access this Help guide anytime from the Help &gt; Contents menu.</p>
+
+ 
+
+    <p>For more information or support, please contact the developer, chrisj.minchin@gmail.com.</p>
+
+ 
+
+</body>
+
+</html>
