@@ -89,5 +89,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
+<ItemGroup>
+  <Compile Include="Advanced.vb">
+    <DependentUpon>Advanced.Designer.vb</DependentUpon>
+  </Compile>
+</ItemGroup>
 </Project>
